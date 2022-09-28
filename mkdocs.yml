@@ -1,0 +1,42 @@
+site_name: Nenyo Docs
+repo_url: https://github.com/Loick21/NenyoDoc
+repo_name: Nenyo_doc
+docs_dir: src
+
+theme:
+  name: material
+  features:
+    - content.tabs.link
+    - content.code.annotate
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - tables
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+  - autolinks
+
+nav:
+  - Documentation fonctionnelle:
+      - Introduction: functionnal-doc/introduction.md
+      - Dashboard: functionnal-doc/dashboard/dashboard.md
+      - Gestion commerciale: functionnal-doc/dashboard/dashboard.md
+      - WeNyou: functionnal-doc/dashboard/dashboard.md
+      - Administration: functionnal-doc/dashboard/dashboard.md
