@@ -28,6 +28,9 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 plugins:
   - search
@@ -37,6 +40,12 @@ nav:
   - Documentation fonctionnelle:
       - Introduction: functionnal-doc/introduction.md
       - Dashboard: functionnal-doc/dashboard/dashboard.md
-      - Gestion commerciale: functionnal-doc/dashboard/dashboard.md
-      - WeNyou: functionnal-doc/dashboard/dashboard.md
-      - Administration: functionnal-doc/dashboard/dashboard.md
+      - Gestion commerciale: functionnal-doc/gestion-commerciale/gestion-commerciale.md
+      - WeNyou: functionnal-doc/we-n-you/we-n-you.md
+      - Facturation: functionnal-doc/facturation/facturation.md
+      - Administration: functionnal-doc/administration/administration.md
+  - Documentation technique:
+      - Front end:
+        - Installation: technical-doc/frontend/frontend.md
+        - Dependance: technical-doc/frontend/dependencies.md
+        - Architecture des dossiers: technical-doc/frontend/folder.md
